@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/*------------------------------------------------*/
+/* Start Global CSS */
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f1f1f1;
+}
+
+div {
+  display: block;
+}
+
+h1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 80px;
+  color: #363958;
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  font-family: "Bebas Neue";
+  font-size: 48px;
+  color: #363958;
+}
+
+h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #363958;
+}
+
+h5 {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #363958;
+}
+
+/* End Global CSS */
+/*------------------------------------------------*/
+/* Start Header */
+
+#header {
+  height: 100vh;
+  padding: 85px 0 70px 0;
+  background-color: #f4f5ff;
+}
+
+#header span {
+  font-weight: 700;
+}
+
+.custom-navbar {
+  background-color: #fff;
+}
+
+.custom-ul {
+  text-align: center;
+  background-color: #fff;
+}
+
+.shadow {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.8);
+}
+
+.custom-li {
+  font-weight: 700;
+  padding: 0 25px;
+}
+
+.custom-logo {
+  width: 30%;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.custom-highlight {
+  color: #dc3545;
+}
+
+.custom-btn {
+  background-color: #3d4ff3;
+  padding: 10px;
+  border: none;
+  outline: none;
+}
+
+/* End Header */
+/*------------------------------------------------*/
+/* Start Services Section */
+
+.custom-card {
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  padding: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  border: none;
+}
+
+.custom-img-width {
+  width: 80px;
+}
+
+.custom-service-card {
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  border: none;
+}
+
+@media (max-width: 767px) {
+  .custom-img-service {
+    display: none;
+  }
+  .custom-class-service {
+    margin-top: 350px;
+  }
+}
+
+/* End Services Section */
+/*------------------------------------------------*/
+/* Start Casual Shoes Section */
+
+.custom-footer {
+  background-color: transparent;
+  border: none;
+}
+
+.custom-bg {
+  height: 350px;
+  background: #f1f1f1;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+
+/* End Casual Shoes Section */
+/*------------------------------------------------*/
+/* Start Footer */
+
+#footer {
+  padding: 25px 0;
+}
+
+#footer h5 {
+  padding: 10px 0;
+}
+
+#footer li a {
+  text-decoration: none;
+}
+
+/* End Footer */
+/*------------------------------------------------*/
